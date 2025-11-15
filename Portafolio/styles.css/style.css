@@ -1,0 +1,63 @@
+:root {
+    --rojo-principal: #E50914;     /* Rojo intenso tipo Netflix */
+    --rojo-secundario: #FF2E2E;   /* Rojo brillante para botones */
+    --negro-fondo: #0A0A0A;       /* Fondo oscuro casi negro */
+    --gris-oscuro: #1C1C1C;       /* Paneles o secciones */
+    --gris-texto: #B3B3B3;        /* Texto secundario */
+    --blanco-texto: #FFFFFF;      /* Texto principal */  
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--negro-fondo);
+    color: var(--blanco-texto);
+}
+
+h1{
+    color: var(--blanco-texto);
+    text-align: center;
+}
+
+.nav-bg{
+    background-color: var(--gris-oscuro);
+}
+
+.navegacion{
+    background-color: var(--gris-oscuro);
+    display: flex;
+    justify-content:space-around;
+    padding: .5rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: var(--gris-texto);
+    padding: 1rem;
+}
+
+.navegacion a:hover{
+    color: var(--blanco-texto);
+    background-color: var(--rojo-secundario);
+}
+
+.UTCJ{
+    text-decoration: none;
+    color: var(--rojo-secundario);
+    font-weight: bold;
+}
+
+.grid{
+}
+
+.parrafo{
+    font-size: 2rem;
+}
+
+
